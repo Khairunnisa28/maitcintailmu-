@@ -1,7 +1,7 @@
 import KS from '../assets/KS.jpg';
 import '../style/index.css';
 import Perpustakaan from '../assets/Perpustakaan MA.jpg'
-import Kelas from "../assets/Kelas MTs.jpg"
+import Kelas from "../assets/Kelas.jpg"
 import Masjid from "../assets/Masjid.jpg"
 import Lab_kom from "../assets/Lab Kom MA.jpeg"
 import Lab_ipa from "../assets/Lab IPA 3.jpg"
