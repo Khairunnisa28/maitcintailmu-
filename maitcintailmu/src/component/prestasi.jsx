@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/prestasi.css"; // Tambahkan file CSS untuk styling
+import "../style/Prestasi.css"; // Tambahkan file CSS untuk styling
 import July_X from "../assets/1. Siswa terbaik kelas JULY 10.png";
 import July_XI from "../assets/2. Siswa terbaik kelas JULY 12.png";
 import July_XII from "../assets/3. Siswa terbaik kelas JULY 12.png";
