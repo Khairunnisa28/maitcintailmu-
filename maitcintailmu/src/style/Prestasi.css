@@ -1,0 +1,47 @@
+.prestasi-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .prestasi-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .prestasi-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .prestasi-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .prestasi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .prestasi-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .prestasi-title {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  

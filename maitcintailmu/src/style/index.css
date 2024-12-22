@@ -1,0 +1,173 @@
+/* Styling untuk container utama */
+.container {
+    max-width: 100%;
+    margin: 0 auto; /* Tengah layar */
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Styling untuk heading */
+h3.conte {
+    text-align: center; /* Rata tengah */
+    color: #333; /* Warna teks gelap */
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Styling untuk paragraf */
+.container p {
+    font-size: 16px;
+    line-height: 1.6; /* Jarak antar baris */
+    color: #555; /* Warna teks */
+    text-align: justify; /* Rata kiri-kanan */
+}
+
+/* Styling untuk gambar */
+.container img {
+    display: block;
+    max-width: 100%; /* Sesuaikan ukuran dengan container */
+    height: auto;
+    margin: 0 auto 20px; /* Tengah dan jarak bawah */
+    border-radius: 8px; /* Sudut gambar membulat */
+}
+
+/* Styling untuk nama kepala madrasah */
+.container strong {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling umum untuk elemen body */
+body {
+    font-family: 'Arial', sans-serif; /* Font standar */
+    background-color: #eaeaea; /* Latar belakang untuk seluruh halaman */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styling untuk section Kata Pengantar */
+.kata-pengantar {
+    padding: 40px 20px;
+    background-color: #f7f7f7; /* Latar belakang lembut */
+    border-top: 3px solid #007bff; /* Garis atas untuk pemisah */
+    border-bottom: 3px solid #007bff; /* Garis bawah untuk pemisah */
+    margin-bottom: 20px;
+}
+
+/* Styling untuk teks dalam section */
+.kata-pengantar h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Styling untuk section video */
+.video-section {
+    padding: 40px 20px;
+    background-color: #f1f1f1; /* Warna latar belakang yang lembut */
+    border-top: 3px solid #007bff; /* Garis atas biru */
+    border-bottom: 3px solid #007bff; /* Garis bawah biru */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk judul video */
+.video-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk section video */
+.video-section {
+    padding: 40px 20px;
+    background-color: #f1f1f1; /* Warna latar belakang yang lembut */
+    border-top: 3px solid #007bff; /* Garis atas biru */
+    border-bottom: 3px solid #007bff; /* Garis bawah biru */
+    display: flex;
+    justify-content: center; /* Posisikan elemen secara horizontal di tengah */
+    align-items: center; /* Posisikan elemen secara vertikal di tengah */
+    height: auto; /* Mengatur tinggi untuk menyesuaikan dengan konten */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk judul video */
+.video-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk video container */
+.video-container {
+    position: relative;
+    width: 100%; /* Membuat container video memenuhi lebar layar */
+    max-width: 100%; /* Membatasi lebar video agar tidak melewati 100% */
+    padding-bottom: 56.25%; /* Menjaga rasio aspek 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+/* Responsif untuk video iframe */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Memastikan iframe memenuhi lebar container */
+    height: 100%; /* Memastikan iframe memenuhi tinggi container */
+}
+
+/* Styling untuk section fasilitas */
+.fasilitas-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Warna latar belakang cerah */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling untuk section fasilitas */
+.fasilitas-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Warna latar belakang cerah */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling untuk judul bagian */
+.fasilitas-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk galeri gambar */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Menyesuaikan jumlah kolom dengan ukuran layar */
+    gap: 20px; /* Memberi jarak antar gambar */
+    justify-items: center;
+}
+
+/* Styling untuk gambar dalam galeri */
+.gallery img {
+    width: 100%;
+    height: 200px; /* Mengatur tinggi gambar agar semua gambar memiliki tinggi yang sama */
+    object-fit: cover; /* Memastikan gambar tetap terpotong proporsional tanpa distorsi */
+    border-radius: 10px; /* Memberikan efek sudut melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan lembut pada gambar */
+    transition: transform 0.3s ease-in-out; /* Efek transformasi pada hover */
+}
+
+/* Efek hover pada gambar */
+.gallery img:hover {
+    transform: scale(1.05); /* Membesarkan gambar sedikit saat di-hover */
+}

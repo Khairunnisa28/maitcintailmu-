@@ -1,0 +1,99 @@
+/* Footer Styling */
+.footer {
+  background-color: #333; /* Warna latar belakang gelap */
+  color: #fff; /* Warna teks putih */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 100%; /* Memastikan footer meluas ke tepi */
+  box-sizing: border-box; /* Menghindari overflow padding */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Menjaga elemen sejajar secara vertikal */
+  flex-wrap: wrap; /* Elemen akan membungkus jika ruang tidak cukup */
+  max-width: 1200px; /* Membatasi lebar konten */
+  margin: 0 auto; /* Menjaga konten di tengah */
+  padding: 0 20px; /* Memberikan ruang di sisi kiri dan kanan */
+}
+
+.footer-content h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+.footer-content .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Menjaga jarak antar elemen */
+}
+
+.footer-content .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff7f50; /* Warna aksen saat hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #555; /* Garis pembatas atas */
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.footer-bottom a:hover {
+  color: #ff7f50; /* Efek hover pada link */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column; /* Elemen dalam footer menjadi kolom */
+      align-items: center;
+      text-align: center;
+  }
+
+  .social-icons {
+      margin-top: 15px;
+  }
+
+  .footer-content .right {
+      justify-content: center; /* Ikon sosial menjadi tengah */
+  }
+}

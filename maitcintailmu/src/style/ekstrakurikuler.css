@@ -1,0 +1,19 @@
+.ekstrakulikuler .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .ekstrakulikuler .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ekstrakulikuler .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .ekstrakulikuler .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  

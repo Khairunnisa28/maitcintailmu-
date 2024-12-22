@@ -1,0 +1,23 @@
+.fasilitas .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .fasilitas .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fasilitas .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .fasilitas .card-text {
+    font-size: 1rem;
+  }
+  
+  .fasilitas .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
